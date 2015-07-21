@@ -95,8 +95,6 @@ function leftKeyShortcut() {
 window.onload = function() {
 
 $("body").css({"-webkit-transition-property":"background-color", "-webkit-transition-duration":"3s", "-o-transition-property":"background-color", "-o-transition-duration":"3s", "-transition-property":"background-color", "-transition-duration":"3s"});
-$("a").css({"-webkit-transition-property":"color", "-webkit-transition-duration":"3s", "-o-transition-property":"color", "-o-transition-duration":"3s", "-transition-property":"color", "-transition-duration":"3s"});
-
 
 if (Modernizr.history) {
 	window.setTimeout(function() {
