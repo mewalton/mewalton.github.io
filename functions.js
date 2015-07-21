@@ -5,7 +5,7 @@ function contactIn() {
 		$(".contact").removeClass("contact-out").addClass("contact-in");
 		$(".about").removeClass("about-in").addClass("about-out");
 		if (window.location.href=="http://www.mewalton.co.uk")
-			history.pushState(null, null, "contact");
+			history.pushState(null, null, "http://www.mewalton.co.uk/contact");
 	} else {
 		window.location.href = "http://www.mewalton.co.uk/contact";
 	}
