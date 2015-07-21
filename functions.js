@@ -59,11 +59,6 @@ function randomColor() {
 	var randomNumber = Math.floor(Math.random()*colors.length)
 	
 	document.body.style.backgroundColor=colors[randomNumber];
-	
-	randomNumber++
-	
-        var colorDiv = document.getElementById("wrapper");
-           colorDiv.className = "color" + randomNumber;
 
 }
 

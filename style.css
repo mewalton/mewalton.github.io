@@ -96,30 +96,6 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-.color1 a:link, .color1 a:visited {
-	color: rgb(39, 175, 252);
-}
-
-.color2 a:link, .color2 a:visited {
-	color: rgb(255, 255, 21);
-}
-
-.color3 a:link, .color3 a:visited {
-	color: rgb(255, 250, 0);
-}
-
-.color4 a:link, .color4 a:visited {
-	color: rgb(68, 244, 255);
-}
-
-.color5 a:link, .color5 a:visited {
-	color: rgb(197, 252, 135);
-}
-
-.color6 a:link, .color6 a:visited {
-	color: rgb(255, 155, 255);
-}
-
 a:hover {
 	text-decoration: underline;
 }
