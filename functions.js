@@ -4,10 +4,10 @@ function contactIn() {
 		$("#contact-button").removeClass("faded-out").addClass("faded-in");
 		$(".contact").removeClass("contact-out").addClass("contact-in");
 		$(".about").removeClass("about-in").addClass("about-out");
-		if (window.location.href=="http://mewalton.co.uk" || window.location.href=="http://mewalton.github.io/")
+		if (window.location.href=="http://www.mewalton.co.uk")
 			history.pushState(null, null, "contact");
 	} else {
-		window.location.href = "http://mewalton.co.uk/contact";
+		window.location.href = "http://www.mewalton.co.uk/contact";
 	}
 };
     
@@ -17,12 +17,10 @@ function aboutIn() {
 		$("#contact-button").removeClass("faded-in").addClass("faded-out");
 		$(".contact").removeClass("contact-in").addClass("contact-out");
 		$(".about").removeClass("about-out").addClass("about-in");
-		if (window.location.href=="http://mewalton.co.uk/contact")
-			history.pushState(null, null, "http://mewalton.co.uk");
-		else if (window.location.href=="http://mewalton.github.io/contact")
-			history.pushState(null, null, "http://mewalton.github.io");
+		if (window.location.href=="http://www.mewalton.co.uk/contact")
+			history.pushState(null, null, "http://www.mewalton.co.uk");
 	} else {
-		window.location.href = "http://mewalton.co.uk";
+		window.location.href = "http://www.mewalton.co.uk";
 	} 
 };
 
@@ -99,7 +97,7 @@ $("body").css({"-webkit-transition-property":"background-color", "-webkit-transi
 if (Modernizr.history) {
 	window.setTimeout(function() {
 		window.addEventListener("popstate", function(e) {
-			if (window.location.href=="http://mewalton.co.uk" || window.location.href=="http://mewalton.github.io/")
+			if (window.location.href=="http://www.mewalton.co.uk")
 			{
 			aboutInBack()
 			} else {
