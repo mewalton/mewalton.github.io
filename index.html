@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+	<meta charset="utf-8">
+	<title>Matthew Walton</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="modernizr.custom.js"></script>
+	<script src="hotkeys.js"></script>
+	<script src="functions.js"></script>
+	
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+		
+</head>
+	
+<body>
+	<div id="wrapper">
+	<h1>Matthew Walton</h1>
+		
+	<nav>
+		<ul>
+			<li><span id="about-button" class="button faded-in" onclick="aboutIn()">About</span></li>
+			<li><span id="contact-button" class="button faded-out" onclick="contactIn()">Contact</span></li>
+		</ul>
+	</nav>
+	
+	<section class="about about-in">
+		<h1>About</h1>
+		<ul>
+			<li>Taking <a href="http://www.instagram.com/diretying">photos</a></li>
+			<li>Orbiting the sun for the 24<sup>th</sup> time</li>
+			<li id="tbc">More to come</li>
+		</ul>
+	</section>
+	<hr>
+	<section class="contact contact-out">
+		<h1>Contact</h1>
+		<ul>
+			<li id="twitter"><a href="http://www.twitter.com/diretying">Twitter</a></li>
+			<li id="dribbble"><a href="http://www.dribbble.com/mattwalton">Dribbble</a></li>
+			<li id="email">
+				<script type="text/javascript">
+				//<![CDATA[
+				<!--
+				var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+				"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+				"\\\\,l=x.length;for(i=0;i<l;i++){y%=127;o+=String.fromCharCode(x.charCodeAt" +
+				"(i)^(y++));}return o;}f(\\\"\\\\\\\\\\\\005\\\\\\\\r\\\\\\\\000\\\\\\\\021\\"+
+				"\\\\\\010\\\\\\\\003\\\\\\\\t\\\\\\\\034G\\\\\\\\035\\\\\\\\031\\\\\\\\005\\"+
+				"\\\\\\031\\\\\\\\013\\\\\\\\003\\\\\\\\036YPO\\\\\\\\025U\\\\\\\\036\\\\\\\\"+
+				"005\\\\\\\\035\\\\\\\\037G'^\\\\\\\\020\\\\\\\\037imvl>fii|hi\\\\\\\\177L`k" +
+				"xq}f|z;ux6lqG>=jvTMG\\\\\\\\036x\\\\\\\\007uBFM\\\\\\\\nNALGC\\\\\\\\020E]\\"+
+				"\\\\\\023WZXCYZN{QXI^,5--j&)i=\\\\\\\\\\\"\\\\\\\\\\\\026ir\\\\\\\\010#.9=n" +
+				"|5kt~cia\\\"\\\\,97)\\\"(f};)lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i" +
+				";1-l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)05=!)31/l(tAedoCrahc.x(elihw;lo=l,htg" +
+				"nel.x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf\")"                                  ;
+				while(x=eval(x));
+				//-->
+				//]]>
+				</script>
+			</li>
+		</ul>
+	</section>
+	</div>
+<script>
+	randomColor();
+
+	$(document).bind("keydown", "r", function(){rKeyShortcut()});
+
+	$(document).bind("keydown.arrowkey", "right", function(){rightKeyShortcut()});
+
+	setColorInterval();
+</script>
+
+</body>
+	
+</html>

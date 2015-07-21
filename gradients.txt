@@ -1,0 +1,5 @@
+background: -webkit-linear-gradient(top, rgba(255,240,143,1) 0%, rgba(109,15,250,1) 100%);
+
+background: -webkit-linear-gradient(top, rgba(255,0,136,1) 0%, rgba(255,191,0,1) 100%);
+
+background: -webkit-linear-gradient(top, rgba(224,18,18,1) 0%, rgba(11,48,194,1) 100%);

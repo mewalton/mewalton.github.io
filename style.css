@@ -1,0 +1,210 @@
+/*Reset*/
+
+@import url("normalize.css");
+
+/*Main*/
+html {
+	-webkit-font-smoothing: antialiased;
+	display: table;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+}
+
+body {
+        display: table-cell;
+        vertical-align: middle;
+	font-family: "Source Sans Pro";
+	letter-spacing: 0.1em;
+	color: white;
+	background-color: #212b32;
+/*	background: -webkit-linear-gradient(top, rgba(255,0,136,1) 0%, rgba(255,191,0,1) 100%);*/
+}
+
+#wrapper {
+/*	background-color: green;*/
+	margin: 0 auto;
+	width: 25em;
+	height: 25em;
+}
+
+h1 {
+	font-size: 2.7em;
+	letter-spacing: 0.05em;
+	font-weight: 300;
+	text-align: center;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0.4em;
+}
+
+section {
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	height: 10em;
+	margin: 30px auto 0 auto;
+/*	background-color: green;*/
+}
+
+.about {
+	position: relative;
+}
+
+.contact {
+/*	background-color: red;*/
+	width: 9em;
+	margin-top: -10em;
+	position: relative;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+p {
+	margin: 0;
+}
+
+nav>ul>li {
+	display: inline-block;
+	margin: 0 5px;
+	text-align: right;
+}
+
+.button {
+	cursor: pointer;
+}
+
+nav>ul>li:last-child{
+	text-align: left;
+}
+
+a:link, a:visited {
+	color: #48d9fc;
+	text-decoration: none;
+}
+
+.color1 a:link, .color1 a:visited {
+	color: rgb(39, 175, 252);
+}
+
+.color2 a:link, .color2 a:visited {
+	color: rgb(255, 255, 21);
+}
+
+.color3 a:link, .color3 a:visited {
+	color: rgb(255, 250, 0);
+}
+
+.color4 a:link, .color4 a:visited {
+	color: rgb(68, 244, 255);
+}
+
+.color5 a:link, .color5 a:visited {
+	color: rgb(197, 252, 135);
+}
+
+.color6 a:link, .color6 a:visited {
+	color: rgb(255, 155, 255);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#tbc::before {
+	content: "…";
+	display: block;
+	font-size: 1.5em;
+	margin: -0.3em 0 0 0;
+}
+
+#email::before {
+	content: "or";
+	display: block;
+}
+
+.faded-out:hover {
+	opacity: 0.7;
+}
+
+/*Not Displayed*/
+
+section>h1 {
+	display: none;
+}
+
+hr {
+	display: none;
+}
+
+/*Transitions*/
+
+.about-in {
+	right: 0;
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: visibility 0s, right 0.4s, opacity 0.4s;
+	-moz-transition: visibility 0s, right 0.4s, opacity 0.4s;
+	-o-transition: visibility 0s, right 0.4s, opacity 0.4s;
+	transition: visibility 0s, right 0.4s, opacity 0.4s;
+	
+}
+
+.about-out {
+	right: 5.5em;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: visibility 0s 0.4s, right 0.4s, opacity 0.4s;
+	-moz-transition: visibility 0s 0.4s, right 0.4s, opacity 0.4s;
+	-o-transition: visibility 0s 0.4s, right 0.4s, opacity 0.4s;
+	transition: visibility 0s 0.4s, right 0.4s, opacity 0.4s;
+}
+
+.contact-in {
+	left: 0;
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: visibility 0s, left 0.4s, opacity 0.4s;
+	-moz-transition: visibility 0s, left 0.4s, opacity 0.4s;
+	-o-transition: visibility 0s, left 0.4s, opacity 0.4s;
+	transition: visibility 0s, left 0.4s, opacity 0.4s;
+}
+
+.contact-out{
+	left: 5.5em;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: visibility 0s 0.4s, left 0.4s, opacity 0.4s;
+	-moz-transition: visibility 0s 0.4s, left 0.4s, opacity 0.4s;
+	-o-transition: visibility 0s 0.4s, left 0.4s, opacity 0.4s;
+	transition: visibility 0s 0.4s, left 0.4s, opacity 0.4s;
+}
+	
+.faded-out {
+	opacity: 0.5;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.faded-in {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
