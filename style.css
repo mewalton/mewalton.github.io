@@ -22,7 +22,8 @@ body {
 
 #wrapper {
 	margin: 0 auto;
-	width: 600px;
+	padding: 0;
+	width: 500px;
 	height: 25em;
 }
 
@@ -182,4 +183,11 @@ hr {
 	-moz-transition: opacity 0.1s;
 	-o-transition: opacity 0.1s;
 	transition: opacity 0.1s;
+}
+
+@media only screen and (max-device-width: 480px) {
+	#wrapper {
+		width: 500px;
+		height: 20em;
+	}
 }
