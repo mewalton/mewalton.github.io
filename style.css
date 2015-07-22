@@ -3,8 +3,8 @@
 @import url("normalize.css");
 
 /*Main*/
+
 html {
-	-webkit-font-smoothing: antialiased;
 	display: table;
     text-align: center;
     height: 100%;
@@ -18,13 +18,11 @@ body {
 	letter-spacing: 0.1em;
 	color: white;
 	background-color: #212b32;
-/*	background: -webkit-linear-gradient(top, rgba(255,0,136,1) 0%, rgba(255,191,0,1) 100%);*/
 }
 
 #wrapper {
-/*	background-color: green;*/
 	margin: 0 auto;
-	width: 25em;
+	width: 700px;
 	height: 25em;
 }
 
@@ -53,7 +51,6 @@ section {
 	text-align: center;
 	height: 10em;
 	margin: 30px auto 0 auto;
-/*	background-color: green;*/
 }
 
 .about {
@@ -61,7 +58,6 @@ section {
 }
 
 .contact {
-/*	background-color: red;*/
 	width: 9em;
 	margin-top: -10em;
 	position: relative;
