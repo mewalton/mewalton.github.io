@@ -6,14 +6,14 @@
 html {
 	-webkit-font-smoothing: antialiased;
 	display: table;
-        text-align: center;
-        height: 100%;
-        width: 100%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 body {
-        display: table-cell;
-        vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 	font-family: "Source Sans Pro";
 	letter-spacing: 0.1em;
 	color: white;
@@ -30,8 +30,8 @@ body {
 
 h1 {
 	font-size: 2.7em;
-	letter-spacing: 0.05em;
-	font-weight: 300;
+	letter-spacing: 0em;
+	font-weight: 700;
 	text-align: center;
 	line-height: 1.5;
 	margin: 0;
@@ -40,15 +40,15 @@ h1 {
 
 nav {
 	font-size: 1.5em;
-	font-weight: 400;
+	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 0.4em;
 }
 
 section {
-	font-size: 1.2em;
-	font-weight: 400;
+	font-size: 1.3em;
+	font-weight: 600;
 	line-height: 1.5;
 	text-align: center;
 	height: 10em;
@@ -91,13 +91,16 @@ nav>ul>li:last-child{
 	text-align: left;
 }
 
+
 a:link, a:visited {
 	color: white;
+	opacity: 0.8;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
+	opacity: 1;
 }
 
 #tbc::before {
@@ -113,7 +116,7 @@ a:hover {
 }
 
 .faded-out:hover {
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 /*Not Displayed*/
@@ -170,17 +173,17 @@ hr {
 }
 	
 .faded-out {
-	opacity: 0.5;
-	-webkit-transition: opacity 0.3s;
-	-moz-transition: opacity 0.3s;
-	-o-transition: opacity 0.3s;
-	transition: opacity 0.3s;
+	opacity: 0.7;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
 }
 
 .faded-in {
 	opacity: 1;
-	-webkit-transition: opacity 0.3s;
-	-moz-transition: opacity 0.3s;
-	-o-transition: opacity 0.3s;
-	transition: opacity 0.3s;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
 }

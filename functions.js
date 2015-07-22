@@ -44,14 +44,13 @@ function aboutInBack() {
 
 function randomColor() {
 	
-	var color1 = "rgb(19, 34, 40)"; // dark blue
-	var color2 = "rgb(246, 81, 29)"; // red
-	var color3 = "rgb(255, 180, 0)"; // yellow
-	var color4 = "rgb(0, 166, 237)"; // blue
-	var color5 = "rgb(119, 184, 60)"; // green
-	var color6 = "rgb(139, 58, 165)"; // purple
+	var color1 = "rgba(35, 85, 255, 1)";
+	var color2 = "rgba(0, 233, 93, 1)";
+	var color3 = "rgba(255, 30, 0, 1)";
+	var color4 = "rgba(255, 180, 0, 1)";
+	var color5 = "rgba(255, 54, 153, 1)";
 		
-	var colors = [color1, color2, color3, color4, color5, color6];
+	var colors = [color1, color2, color3, color4, color5];
 	// var backgroundColors = new Array("#f6511d", "#ffb400", "#00a6ed", "#7fb800", "#9a39d3");
 	
 	var randomNumber = Math.floor(Math.random()*colors.length)
