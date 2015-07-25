@@ -14,7 +14,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial;
 	letter-spacing: 0.1em;
 	color: white;
 	background-color: #212b32;
