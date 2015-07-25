@@ -24,7 +24,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	width: 500px;
-	height: 25em;
+	height: 22em;
 }
 
 h1 {
@@ -46,12 +46,12 @@ nav {
 }
 
 section {
-	font-size: 1.3em;
-	font-weight: 600;
+	font-size: 1.5em;
+	font-weight: 300;
 	line-height: 1.5;
 	text-align: center;
 	height: 10em;
-	margin: 30px auto 0 auto;
+	margin: 25px auto 0 auto;
 }
 
 .about {
@@ -91,13 +91,12 @@ nav>ul>li:last-child{
 
 a:link, a:visited {
 	color: white;
-	opacity: 0.8;
 	text-decoration: none;
+	border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
 }
 
 a:hover {
-	text-decoration: underline;
-	opacity: 1;
+	border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
 }
 
 #tbc::before {
