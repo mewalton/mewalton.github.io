@@ -44,11 +44,11 @@ function aboutInBack() {
 
 function randomColor() {
 	
-	var color1 = "rgba(35, 85, 255, 1)";
-	var color2 = "rgba(0, 233, 93, 1)";
-	var color3 = "rgba(255, 30, 0, 1)";
-	var color4 = "rgba(255, 180, 0, 1)";
-	var color5 = "rgba(255, 54, 153, 1)";
+	var color1 = "rgba(35, 85, 255, 1)"; // Blue
+	var color2 = "rgba(0, 221, 92, 1)"; // Green
+	var color3 = "rgba(255, 30, 0, 1)"; // Red
+	var color4 = "rgba(255, 180, 0, 1)"; // Orange
+	var color5 = "rgba(255, 54, 153, 1)"; // Pink
 		
 	var colors = [color1, color2, color3, color4, color5];
 	// var backgroundColors = new Array("#f6511d", "#ffb400", "#00a6ed", "#7fb800", "#9a39d3");
