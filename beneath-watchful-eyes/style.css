@@ -1,0 +1,195 @@
+/*Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Mine*/
+html {
+	font-size: 15px;
+}
+
+body {
+	background-color: #fefefe;
+	font-size: 1rem;
+	color: rgba(0,0,0,0.7);
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+
+
+.wrapper {
+	width: 482px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 482px;
+	padding: 0 11px;
+	margin: 6rem 0 0 0;
+}
+
+.footer {
+	font-family: 'IBM Plex Mono', Courier, "Courier New", monospace;
+	font-weight: 400;
+	line-height: 1.8;
+	padding-bottom: 4rem;
+}
+
+.footer ul {
+	text-align: center;
+}
+
+.footer li {
+	padding: 0 11px;
+	display: inline;
+}
+
+
+
+article {
+	margin-bottom: 5.2rem;
+}
+
+.article-body {
+	line-height: 1.8;
+	color: rgba(0,0,0,0.6);
+}
+
+h1 {
+	font-family: 'IBM Plex Mono', Courier, "Courier New", monospace;
+	line-height: 1.5;
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-bottom: 1.5rem;
+}
+
+h2 {
+	font-size: 1rem;
+	margin: 2rem 0 0.5rem 0;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+p+p {
+	margin-top: 1.8rem;
+}
+
+figure {
+	margin: 1.8rem 0 1.8rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+figcaption {
+	text-transform: uppercase;
+	font-size:0.8rem;
+	color: rgba(0,0,0,0.4);
+	margin-top: -0.4rem;
+	letter-spacing: 0.05rem;
+}
+
+a {
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 0.15em;
+}
+
+.border>a:hover {
+	background-color: #FB008B;
+}
+
+.article-body a {
+	text-decoration: underline;;
+}
+
+.article-body a:hover {
+	text-decoration: none;
+	color: rgba(0,0,0,0.7);
+}
+
+a:active,
+.article-body a:active {
+	color: rgba(0,0,0,0.8);
+}
+
+blockquote {
+	margin: 1.8rem 0;
+	padding: 0 0 0 1.8rem;
+	font-style: italic;
+}
+
+.citation {
+	margin-top: -1.8rem;
+	text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+	.wrapper {
+		width: 90%;
+	}
+
+	.content {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	h1 {
+		font-size: 1.3rem;
+	}
+}
